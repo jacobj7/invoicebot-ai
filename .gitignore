@@ -133,10 +133,9 @@ dmypy.json
 Thumbs.db
 
 # Project specific
-*.sqlite
-*.db
-secrets.json
-config/local.py
-logs/
-tmp/
-temp/
+*.local
+secrets/
+config/local/
+*.pem
+*.key
+*.cert
